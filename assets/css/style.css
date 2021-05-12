@@ -217,13 +217,13 @@ width:10%;
     font-family: 'Lato',sans-serif;
 }
 
-#content .iMac-product .iMac-question{
+#content  .i-question{
     font-size:48px;
     font-weight: 600;
     
 } 
 
-#content .iMac-product .iMac-compare{
+#content  .i-compare{
     color:#0066CC;
     font-size: 18px;
     margin-bottom: 51px;
@@ -231,12 +231,12 @@ width:10%;
     display: block;
 }
 
-#content .iMac-product .iMac-compare:hover{
+#content  .i-compare:hover{
     text-decoration: underline;
     cursor: pointer;
 }
 
-#content .iMac-product .iMac-rcm{
+#content .i-rcm{
     font-size: 36px;
     color:rgb(100, 100, 100);
     font-weight: 600;
@@ -249,7 +249,7 @@ width:10%;
 
 }
 
-#content .sell-product .iMac-device{
+#content .sell-product .i-device{
     text-align: center;
     height: 240px;
     margin-bottom: 40px;
@@ -262,7 +262,7 @@ width:10%;
     font-size:21px;    
 }
 
-#content .sell-product .dynamicprice-iMac{
+#content .sell-product .dynamicprice-i{
     margin-top: 8px;
     font-size:14px;
     color:rgb(100, 100, 100);
@@ -375,7 +375,7 @@ width:10%;
 #content .iPad-sample .wrapper-sample-iPadPro{
     padding-top: 50%;
     background:url(/assets/img/iPad-sample/iPadPro-sample.png) top center/cover no-repeat;
-    margin-bottom:64px;
+    margin-bottom:128px;
 }
 
 #content .iPad-sample .wrapper-sample-iPadAir{
@@ -388,4 +388,30 @@ width:10%;
     margin-top: 280px;
     margin-left:64px;
     margin-right: -64px;
+}
+
+#content .iPad-sample .wrapper-sample-iPad{
+    padding-top: 44%;
+    background:url(/assets/img/iPad-sample/iPad-sample.png) top center/cover no-repeat;
+    margin-bottom:64px;
+}
+
+#content .iPad-sample .brief-information-iPad{
+    margin-top:164px;
+}
+
+#content .iPad-sample .wrapper-sample-iPadmini{
+    padding-top: 47%;
+    background:url(/assets/img/iPad-sample/iPadmini-sample.png) top center/cover no-repeat;
+    margin-bottom:64px;
+}
+
+#content .iPad-sample .brief-information-iPadmini{
+    margin-top:128px;
+}
+
+#content .iPad-product{
+    text-align: center;
+    line-height: 1.6;
+    font-family: 'Lato',sans-serif;
 }
