@@ -43,11 +43,11 @@ body {
 
 /* Main */
 #header{
-    width:100%;
+    max-width:100%;
     top:0px;
     left:0px;
     right:0px;  
-    position: fixed;
+    /* position: fixed; */
     z-index: 1;
    
 
@@ -137,7 +137,7 @@ width:10%;
 }
 
 .detail{
-    margin-top: 132px;
+    /* margin-top: 132px; */
     height: 48px;
     background-color: #fbfbfded;
     line-height: 48px;
@@ -181,6 +181,7 @@ width:10%;
 }
 
 #content .order-btn{
+    text-decoration: none;
     color:#fff;
     background-color: rgb(123, 123, 236);
     display: inline-block;
@@ -194,8 +195,6 @@ width:10%;
     color:rgb(96, 135, 243);
     text-decoration: none;
     font-weight: bold;
-    text-decoration: none;
-    
 }
 
 #content .iMac-advertisement .learn-more:hover{
@@ -205,9 +204,11 @@ width:10%;
 
 #content .iMac-section .img-advertisement{
     margin-top: 36px;
-    padding-top:50%;
+    padding-top:40%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 128px;
-    width:100%;
+    width:80%;
     background: url(/assets/img/iMac-PC/iMac-PC.png)  top center/cover no-repeat;
 }
 
@@ -220,12 +221,12 @@ width:10%;
 #content  .i-question{
     font-size:48px;
     font-weight: 600;
-    
 } 
 
 #content  .i-compare{
     color:#0066CC;
-    font-size: 18px;
+    font-size: 24px;
+    text-decoration: none;
     margin-bottom: 51px;
     margin-top: 30px;
     display: block;
@@ -368,6 +369,11 @@ width:10%;
     text-decoration: none;
 }
 
+#content .iPad-sample .learn-more:hover{
+    text-decoration: underline;
+}
+
+
 #content .iPad-sample .img-sample{
     width: 66.6666%;
 }
@@ -386,8 +392,7 @@ width:10%;
 
 #content .iPad-sample .brief-information-iPadAir{
     margin-top: 280px;
-    margin-left:64px;
-    margin-right: -64px;
+  
 }
 
 #content .iPad-sample .wrapper-sample-iPad{
@@ -414,4 +419,351 @@ width:10%;
     text-align: center;
     line-height: 1.6;
     font-family: 'Lato',sans-serif;
+}
+
+#content .end-banner-iMac{
+    
+}
+
+#content .end-banner-iPad .slogan-end-iPad{
+     text-align: center;
+     font-size:56px;
+     margin:84px 0 64px;
+}
+
+#content .slider-banner-iPad .img-slider-iPad{
+    width: 66.6666%;
+    padding-top: 49%;
+    background:url(/assets/img/slider/slider-bannerbgr-iPad/slider-banner\ iPad.png) top center/cover no-repeat;
+    margin-bottom:128px;
+}
+
+#content .slider-banner-iPad h2{
+    font-size:48px;
+}
+
+#content .slider-banner-iPad .brief-information-iPad{
+    margin-top:186px;
+}
+
+#content .slider-banner-iPad p{
+    font-size:21px;
+    margin:16.8px 0;
+    color:#1d1d1f;
+}
+
+#content .slider-banner-iPad .learn-more{
+    color:rgb(96, 135, 243);
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: none;
+    font-size:21px;
+}
+
+#content .slider-banner-iPad .learn-more:hover{
+    text-decoration: underline;
+}
+
+#content .end-banner-iPad .wrapper-iPad-banner{
+    padding-top:50%;
+    margin-bottom: 128px;
+    position:relative;
+    background: url(/assets/img/banner_background/banner-iMacBRG.jpg) top center/cover no-repeat;
+}
+
+#content .end-banner-iPad .iPad-banner-content{
+    position: absolute;
+    top:30%;
+    left: 50%;
+    transform: translateX(-50%);
+    color:#fff;
+    font-family: 'Lato',sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#content .iPad-banner-content h1{
+    font-size:48px;
+    margin-bottom: 16.8px;
+
+}
+
+#content .iPad-banner-content p{
+    font-size:21px;
+    display: block;
+    margin-bottom: 16.8px;
+}
+
+#content .iPad-banner-content a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+#content .iPad-banner-content span{
+    display:inline; 
+}
+
+#content .iPad-banner-content a:hover{
+    text-decoration:underline;
+}
+
+#content .slider-iPhone{
+    
+    padding-top: 59%;
+    padding-left: 100%;
+    background:url(/assets/img/slider/slider-iPhone/slider-iphone.jpg) top center/cover no-repeat;
+}
+
+#content .background-color-iPhone{
+    background-color: #000;
+}
+
+#content .iPhone-advertisement{
+    text-align: center;
+}
+
+#content .text-iPhone-advertisement{
+    margin-bottom: 36px;
+}
+
+#content .text-iPhone-advertisement h2{
+    font-size:24px;
+    color:#1d1d1f;
+    font-weight: 600;
+}
+
+#content .text-iPhone-advertisement h1{
+    font-size:48px;
+    margin-top: 9px;
+    margin-bottom: 25px;
+}
+
+#content .text-iPhone-advertisement p{
+    font-size: 21px;
+    color:#1d1d1f;
+    margin-bottom:21px;
+}
+
+#content .text-iPhone-advertisement .learn-more{
+    color:rgb(96, 135, 243);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+#content .text-iPhone-advertisement .learn-more:hover{
+    text-decoration:underline;
+}
+
+#content .iPhone-advertisement .img-iPhone-advertisement{
+    padding-top:38.35%;
+    background: url(/assets/img/iPhone-advertisement/iPhone-advertisement.png)top center/cover no-repeat;
+    margin-bottom: 32px;
+}
+
+#content .iPhone-product .wrapper-img-iphone{
+    margin-bottom: 42px;
+
+}
+
+#content .iPhone-product .initial-product{
+    text-align: center;
+    margin-top:140px;
+}
+
+#content .iPhone-product .sell-product{
+    text-align: center;
+}
+
+#content .iPhone-product .rate-iPhone-product{
+    font-size: 19px;
+    color:#1d1d1f;
+    font-weight: 600;
+    margin-bottom: 9.6px;
+}
+
+#content .end-banner-iPhone{
+    margin-top:64px;
+    padding-top:44.8%;
+    position: relative;
+    background: url(/assets/img/banner_background/banner-iPhoneBGR.png)top center/cover no-repeat;
+}
+
+#content .end-banner-iPhone .wrapper-banner-iPhone{
+    position: absolute;
+    text-align: center;
+    top:25%;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+#content .end-banner-iPhone h1{
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+#content .end-banner-iPhone p{
+    font-size: 21px;
+    margin-bottom: 16px;
+    color: #1d1d1f;
+}
+
+#content .end-banner-iPhone .learn-more{
+    text-decoration: none;
+    color:#0066CC;
+    font-size: 21px;
+}
+
+#content .end-banner-iPhone .learn-more:hover{
+    text-decoration: underline;
+}    
+
+
+#content .app-advertisement{
+    margin-top: 64px;
+    margin-bottom: 128px;
+}
+
+#content .app-advertisement .wrapper-left-img{
+    padding-top:48.39%;
+    background:url(/assets/img/app-advertisement/img-left.png)top center/cover no-repeat;
+}
+#content .app-advertisement .wrapper-right-img{
+    padding-top:48.39%;
+    background:url(/assets/img/app-advertisement/img-right.png)top center/cover no-repeat;
+}
+
+#content .client-care{
+    text-align: center;
+    font-family:'Lato',sans-serif;
+    line-height: 1.6;
+
+}
+
+#content .client-care{
+    margin-bottom:128px;
+}
+
+#content .client-care .wrapper-box-img{
+    margin-bottom:24px;
+}
+
+#content .client-care .wrapper-price-img{
+    margin-bottom:24px;
+}
+
+#content .client-care .wrapper-person-img{
+    margin-bottom:24px;
+}
+
+
+#content .client-care h2{
+    color:#1d1d1f;
+    font-size:21px;
+}
+
+#content .client-care p{
+    margin:8.4px 0;
+    font-size:21px;
+    color:#1d1d1f;
+}
+
+#content .client-care a{
+    text-decoration: none;
+    font-size:21px;
+    color:#0066CC;
+}
+
+#content .client-care a:hover{
+    text-decoration: underline;
+}
+
+#content .slider-awatch{
+    padding-top:56.25%;
+    background: url(/assets/img/slider/slider-awatch/slider-awatch.jpg)top center/cover no-repeat;
+    margin-bottom: 180px;
+}
+
+#content .awatch-advertisement .wrapper-logo-awatch{
+    text-align: center;
+}
+
+#content .awatch-advertisement .brief-info-advertisement{
+    text-align: center;
+    margin-top:84px;
+    width:40%;
+    font-family: 'Lato',sans-serif;
+}
+
+#content .awatch-advertisement h1{
+    font-size:48px;
+    margin-top: 32px;
+    font-weight: 600;
+    color:#1d1d1f;
+}
+
+#content .awatch-advertisement p{
+    font-size: 21px;
+    font-weight: 600;
+    margin:30px 0;
+    color:#1d1d1f;
+}
+
+#content .awatch-advertisement .learn-more{
+    font-size: 17px;
+    color:#0066CC;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+#content .awatch-advertisement .learn-more:hover{
+    text-decoration: underline;
+}
+
+#content .awatch-advertisement .wrapper-banner-advertisement{
+    padding-top: 53.6%;
+    width:60%;
+    background: url(/assets/img/awatch-advertisement/awatch-advertisement.png) top center/cover no-repeat;
+}
+
+#content .awatch-product{
+    margin-top: 64px;
+}
+
+#content .awatch-product .initial-product{
+    text-align: center;
+}
+
+#content .awatch-product .sell-product{
+    text-align: center;
+}
+
+#content .awatch-product .device-content{
+    margin-left: auto;
+    margin-right: auto;
+    width:207px;
+    text-align: left;
+}
+
+#content .awatch-product .name-awatch{
+    font-size:21px;
+    color:#111111;
+    margin-bottom:8.4px;
+    margin-top:24px;
+}
+
+#content .awatch-product .price-awatch{
+    font-size:14px; 
+    color:#1d1d1f;
+    margin-bottom:17px;
+}
+
+#feature-product li{
+    list-style-type: none;
+    font-size:14px;
+    margin: 16px 0;
+    color:#6E6E73;
 }
