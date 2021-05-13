@@ -767,3 +767,47 @@ width:10%;
     margin: 16px 0;
     color:#6E6E73;
 }
+
+#content .end-text-awatch{
+    text-align: center;
+    font-family: 'Lato',sans-serif;
+}
+
+#content .end-text-awatch h2{
+    color:#111111;
+    margin-top: 84px;
+    margin-bottom: 26px;
+}
+
+#content .end-text-awatch h1{
+    color:#111111;
+    font-size: 48px;
+}
+
+#content .end-text-awatch .wrapper-rainbow{
+    padding:2px;
+    margin-top: 32px;
+    margin-bottom: 64px;
+    display:inline-block;
+    border-radius: 980px;
+    background:linear-gradient(to right,yellow,orange,red,purple,blue,green);
+    cursor: pointer;
+}
+
+#content .wrapper-rainbow:hover a{
+    color:#0066CC;
+}
+
+
+#content .end-text-awatch .rainbow-box{
+    font-size:17px;
+    font-weight: bold;
+    border-radius: 980px;
+    background: #fff;
+    padding:8px 16px;
+}
+
+#content .end-banner-awatch .wrapper-banner-awatch{
+    padding-top: 38.57%;
+    background: url(/assets/img/banner_background/end-banner-awatch.png)top center/cover no-repeat;
+}
