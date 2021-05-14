@@ -1,836 +1,836 @@
 /* Reset CSS */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Common */
-  html {
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  
-  .col {
-    float: left;
-  }
-  
-  .col-five {
-    width: 20%;
-  }
-  
-  .col-half {
-    width: 50%;
-  }
-  
-  .col-third {
-    width: 33.3333%;
-  }
-  
-  .col-fourth {
-    width: 25%;
-  }
-  
-  .clear {
-    clear: both;
-  }
-  
-  /* Main */
-  #header {
-    max-width: 100%;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    /* position: fixed; */
-    z-index: 1;
-  }
-  
-  #header .banner {
-    height: 84px;
-    position: relative;
-    background-color: #000;
-  }
-  
-  #header .banner .logo {
-    padding: 8px 24px;
-    box-sizing: border-box;
-    width: 10%;
-  }
-  
-  #header .banner .brand-text {
-    color: #ccc;
-    top: 0px;
-    left: 10%;
-    line-height: 84px;
-    font-family: "Lato", sans-serif;
-    background-size: cover;
-  }
-  
-  #header .banner .slogan {
-    width: 50%;
-    line-height: 1.6;
-    height: 84px;
-    color: #ccc;
-    font-family: "Lato", sans-serif;
-    line-height: 84px;
-    background-size: cover;
-  }
-  
-  #header .banner .banner-advertisement {
-    height: 84px;
-  }
-  
-  #nav {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 48px;
-    background-color: #333;
-  }
-  
-  #nav li {
-    display: inline-block;
-    line-height: 48px;
-    padding: 0 8px;
-    text-align: center;
-    position: relative;
-  }
-  
-  #nav li:first-child {
-    margin-left: 96px;
-  }
-  
-  #nav li a {
-    text-decoration: none;
-    color: #ccc;
-    display: block;
-    box-sizing: border-box;
-  }
-  
-  #nav li:hover {
-    cursor: pointer;
-  }
-  
-  #nav li:hover a {
-    color: #fff;
-  }
-  
-  #nav .search-btn {
-    float: right;
-    margin-left: 180px;
-    padding: 0 20px;
-    font-size: 24px;
-    color: #ccc;
-  }
-  
-  #nav .search-btn:hover {
-    background-color: #fff;
-    color: #333;
-  }
-  
-  .detail {
-    /* margin-top: 132px; */
-    height: 48px;
-    background-color: #fbfbfded;
-    line-height: 48px;
-    font-family: "Lato", sans-serif;
-    font-size: 14px;
-    text-align: center;
-    color: rgb(110, 110, 110);
-  }
-  
-  .detail a {
-    color: rgb(96, 135, 243);
-    text-decoration: none;
-  }
-  .detail a:hover {
-    text-decoration: underline;
-  }
-  
-  #slider {
-    padding-top: 50%;
-    background: url("./assets/img/slider/slider_top.jpg") top center / contain
-      no-repeat;
-    background-color: #000;
-  }
-  
-  .back-btn {
-    background-color: rgba(200, 200, 200, 0.7);
-    display: block;
-    width: 76px;
-    height: 76px;
-    position: fixed;
-    bottom: 32px;
-    right: 0;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    line-height: 96px;
-    z-index: 2;
-    border-radius: 100%;
-  }
-  
-  #content .content-section {
-    width: 1240px;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    box-sizing: border-box;
-  }
-  
-  #content .iMac-section {
-  }
-  
-  #content .iMac-advertisement {
-    text-align: center;
-    font-family: "Lato", sans-serif;
-    line-height: 1.6;
-    margin-bottom: 64px;
-  }
-  
-  #content .order-btn {
-    text-decoration: none;
-    color: #fff;
-    background-color: rgb(123, 123, 236);
-    display: inline-block;
-    padding: 12px 18px;
-    margin: 8px 0;
-    border-radius: 980px;
-    cursor: pointer;
-  }
-  
-  #content .iMac-advertisement .learn-more {
-    color: rgb(96, 135, 243);
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  #content .iMac-advertisement .learn-more:hover {
-    text-decoration: underline;
-  }
-  
-  #content .iMac-section .img-advertisement {
-    margin-top: 36px;
-    padding-top: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 128px;
-    width: 80%;
-    background: url("../../assets/img/iMac-PC/iMac-PC.png") top center/cover
-      no-repeat;
-  }
-  
-  #content .iMac-product {
-    text-align: center;
-    line-height: 1.6;
-    font-family: "Lato", sans-serif;
-  }
-  
-  #content .i-question {
-    font-size: 48px;
-    font-weight: 600;
-  }
-  
-  #content .i-compare {
-    color: #0066cc;
-    font-size: 24px;
-    text-decoration: none;
-    margin-bottom: 51px;
-    margin-top: 30px;
-    display: block;
-  }
-  
-  #content .i-compare:hover {
-    text-decoration: underline;
-    cursor: pointer;
-  }
-  
-  #content .i-rcm {
-    font-size: 36px;
-    color: rgb(100, 100, 100);
-    font-weight: 600;
-    padding-bottom: 64px;
-  }
-  
-  #content .sell-product {
-    font-family: "Lato", sans-serif;
-    line-height: 1.6;
-  }
-  
-  #content .sell-product .i-device {
-    text-align: center;
-    height: 240px;
-    margin-bottom: 40px;
-  }
-  
-  #content .sell-product .name-device {
-    display: block;
-    margin-bottom: 8px;
-    font-size: 21px;
-  }
-  
-  #content .sell-product .dynamicprice-i {
-    margin-top: 8px;
-    font-size: 14px;
-    color: rgb(100, 100, 100);
-  }
-  
-  #content .sell-product .wrapper-color {
-    margin: 12px 0 10px;
-  }
-  
-  #content .sell-product .wrapper-orderdevice {
-    margin-bottom: 12px;
-  }
-  
-  #content .sell-product .orderdevice-btn {
-    color: #fff;
-    background-color: #0071e3;
-    padding: 4px 11px;
-    border-radius: 980px;
-    font-size: 14px;
-    text-decoration: none;
-  }
-  
-  #content .end-banner-iMac {
-    margin: 64px 0 48px;
-  }
-  
-  #content .end-banner-iMac h1 {
-    text-align: center;
-    font-size: 64px;
-    font-family: "Lato", sans-serif;
-    font-weight: 600;
-    margin-bottom: 84px;
-  }
-  
-  #content .end-banner-iMac .wrapper-iMac-banner {
-    padding-top: 50%;
-    position: relative;
-    background: url("../../assets/img/banner_background/banner-iMacBRG.jpg") top
-      center/cover no-repeat;
-  }
-  
-  #content .end-banner-iMac .iMac-banner-content {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translateX(-50%);
-    color: #fff;
-    font-family: "Lato", sans-serif;
-    letter-spacing: 1px;
-    text-align: center;
-  }
-  
-  #content .iMac-banner-content h2 {
-    font-weight: 400;
-  }
-  
-  #content .iMac-banner-content p {
-    font-size: 48px;
-    font-weight: 600;
-    margin: 20px 0;
-  }
-  
-  #content .iMac-banner-content a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
-    margin: 0 16px;
-  }
-  
-  #content .iMac-banner-content a:hover {
-    text-decoration: underline;
-  }
-  
-  #content .iPad-section {
-    font-family: "Lato", sans-serif;
-  }
-  
-  #content .iPad-sample .brief-information {
-    flex-basis: 33.3333%;
-    max-width: 33.3333%;
-    margin-top: 64px;
-  }
-  
-  #content .iPad-section .iPad-sample {
-    line-height: 1.2;
-  }
-  
-  #content .iPad-sample h2 {
-    font-size: 24px;
-    color: #1d1d1f;
-  }
-  
-  #content .iPad-sample p {
-    font-size: 18px;
-    color: rgb(85, 85, 85);
-    padding: 24px 0 4px;
-  }
-  
-  #content .iPad-sample .learn-more {
-    color: rgb(96, 135, 243);
-    text-decoration: none;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  
-  #content .iPad-sample .learn-more:hover {
-    text-decoration: underline;
-  }
-  
-  #content .iPad-sample .img-sample {
-    width: 66.6666%;
-  }
-  
-  #content .iPad-sample .wrapper-sample-iPadPro {
-    padding-top: 50%;
-    background: url("../../assets/img/iPad-sample/iPadPro-sample.png") top
-      center/cover no-repeat;
-    margin-bottom: 128px;
-  }
-  
-  #content .iPad-sample .wrapper-sample-iPadAir {
-    padding-top: 73%;
-    background: url("../../assets/img/iPad-sample/iPadAir-sample.png") top
-      center/cover no-repeat;
-    margin-bottom: 64px;
-  }
-  
-  #content .iPad-sample .brief-information-iPadAir {
-    margin-top: 280px;
-  }
-  
-  #content .iPad-sample .wrapper-sample-iPad {
-    padding-top: 44%;
-    background: url("../../assets/img/iPad-sample/iPad-sample.png") top
-      center/cover no-repeat;
-    margin-bottom: 64px;
-  }
-  
-  #content .iPad-sample .brief-information-iPad {
-    margin-top: 164px;
-  }
-  
-  #content .iPad-sample .wrapper-sample-iPadmini {
-    padding-top: 47%;
-    background: url("../../assets/img/iPad-sample/iPadmini-sample.png") top
-      center/cover no-repeat;
-    margin-bottom: 64px;
-  }
-  
-  #content .iPad-sample .brief-information-iPadmini {
-    margin-top: 128px;
-  }
-  
-  #content .iPad-product {
-    text-align: center;
-    line-height: 1.6;
-    font-family: "Lato", sans-serif;
-  }
-  
-  #content .end-banner-iMac {
-  }
-  
-  #content .end-banner-iPad .slogan-end-iPad {
-    text-align: center;
-    font-size: 56px;
-    margin: 84px 0 64px;
-  }
-  
-  #content .slider-banner-iPad .img-slider-iPad {
-    width: 66.6666%;
-    padding-top: 49%;
-    background: url("./assets/img/slider/slider-bannerbgr-iPad/slider-banner-iPad.png")
-      top center/cover no-repeat;
-    margin-bottom: 128px;
-  }
-  
-  #content .slider-banner-iPad h2 {
-    font-size: 48px;
-  }
-  
-  #content .slider-banner-iPad .brief-information-iPad {
-    margin-top: 186px;
-  }
-  
-  #content .slider-banner-iPad p {
-    font-size: 21px;
-    margin: 16.8px 0;
-    color: #1d1d1f;
-  }
-  
-  #content .slider-banner-iPad .learn-more {
-    color: rgb(96, 135, 243);
-    text-decoration: none;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 21px;
-  }
-  
-  #content .slider-banner-iPad .learn-more:hover {
-    text-decoration: underline;
-  }
-  
-  #content .end-banner-iPad .wrapper-iPad-banner {
-    padding-top: 50%;
-    margin-bottom: 128px;
-    position: relative;
-    background: url("../../assets/img/banner_background/banner-iMacBRG.jpg") top
-      center/cover no-repeat;
-  }
-  
-  #content .end-banner-iPad .iPad-banner-content {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translateX(-50%);
-    color: #fff;
-    font-family: "Lato", sans-serif;
-    letter-spacing: 1px;
-    text-align: center;
-  }
-  
-  #content .iPad-banner-content h1 {
-    font-size: 48px;
-    margin-bottom: 16.8px;
-  }
-  
-  #content .iPad-banner-content p {
-    font-size: 21px;
-    display: block;
-    margin-bottom: 16.8px;
-  }
-  
-  #content .iPad-banner-content a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 21px;
-    font-weight: 600;
-  }
-  
-  #content .iPad-banner-content span {
-    display: inline;
-  }
-  
-  #content .iPad-banner-content a:hover {
-    text-decoration: underline;
-  }
-  
-  #content .slider-iPhone {
-    padding-top: 59%;
-    padding-left: 100%;
-    background: url("../../assets/img/slider/slider-iPhone/slider-iphone.jpg") top
-      center/cover no-repeat;
-  }
-  
-  #content .background-color-iPhone {
-    background-color: #000;
-  }
-  
-  #content .iPhone-advertisement {
-    text-align: center;
-  }
-  
-  #content .text-iPhone-advertisement {
-    margin-bottom: 36px;
-  }
-  
-  #content .text-iPhone-advertisement h2 {
-    font-size: 24px;
-    color: #1d1d1f;
-    font-weight: 600;
-  }
-  
-  #content .text-iPhone-advertisement h1 {
-    font-size: 48px;
-    margin-top: 9px;
-    margin-bottom: 25px;
-  }
-  
-  #content .text-iPhone-advertisement p {
-    font-size: 21px;
-    color: #1d1d1f;
-    margin-bottom: 21px;
-  }
-  
-  #content .text-iPhone-advertisement .learn-more {
-    color: rgb(96, 135, 243);
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 21px;
-    cursor: pointer;
-  }
-  
-  #content .text-iPhone-advertisement .learn-more:hover {
-    text-decoration: underline;
-  }
-  
-  #content .iPhone-advertisement .img-iPhone-advertisement {
-    padding-top: 38.35%;
-    background: url("./assets/img/iPhone-advertisement/iPhone.png") top
-      center/cover no-repeat;
-    margin-bottom: 32px;
-  }
-  
-  #content .iPhone-product .wrapper-img-iphone {
-    margin-bottom: 42px;
-  }
-  
-  #content .iPhone-product .initial-product {
-    text-align: center;
-    margin-top: 140px;
-  }
-  
-  #content .iPhone-product .sell-product {
-    text-align: center;
-  }
-  
-  #content .iPhone-product .rate-iPhone-product {
-    font-size: 19px;
-    color: #1d1d1f;
-    font-weight: 600;
-    margin-bottom: 9.6px;
-  }
-  
-  #content .end-banner-iPhone {
-    margin-top: 64px;
-    padding-top: 44.8%;
-    position: relative;
-    background: url("../../assets/img/banner_background/banner-iPhoneBGR.png") top
-      center/cover no-repeat;
-  }
-  
-  #content .end-banner-iPhone .wrapper-banner-iPhone {
-    position: absolute;
-    text-align: center;
-    top: 25%;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  #content .end-banner-iPhone h1 {
-    font-size: 48px;
-    margin-bottom: 25px;
-  }
-  
-  #content .end-banner-iPhone p {
-    font-size: 21px;
-    margin-bottom: 16px;
-    color: #1d1d1f;
-  }
-  
-  #content .end-banner-iPhone .learn-more {
-    text-decoration: none;
-    color: #0066cc;
-    font-size: 21px;
-  }
-  
-  #content .end-banner-iPhone .learn-more:hover {
-    text-decoration: underline;
-  }
-  
-  #content .app-advertisement {
-    margin-top: 64px;
-    margin-bottom: 128px;
-  }
-  
-  #content .app-advertisement .wrapper-left-img {
-    padding-top: 48.39%;
-    background: url("../../assets/img/app-advertisement/img-left.png") top
-      center/cover no-repeat;
-  }
-  #content .app-advertisement .wrapper-right-img {
-    padding-top: 48.39%;
-    background: url("../../assets/img/app-advertisement/img-right.png") top
-      center/cover no-repeat;
-  }
-  
-  #content .client-care {
-    text-align: center;
-    font-family: "Lato", sans-serif;
-    line-height: 1.6;
-  }
-  
-  #content .client-care {
-    margin-bottom: 128px;
-  }
-  
-  #content .client-care .wrapper-box-img {
-    margin-bottom: 24px;
-  }
-  
-  #content .client-care .wrapper-price-img {
-    margin-bottom: 24px;
-  }
-  
-  #content .client-care .wrapper-person-img {
-    margin-bottom: 24px;
-  }
-  
-  #content .client-care h2 {
-    color: #1d1d1f;
-    font-size: 21px;
-  }
-  
-  #content .client-care p {
-    margin: 8.4px 0;
-    font-size: 21px;
-    color: #1d1d1f;
-  }
-  
-  #content .client-care a {
-    text-decoration: none;
-    font-size: 21px;
-    color: #0066cc;
-  }
-  
-  #content .client-care a:hover {
-    text-decoration: underline;
-  }
-  
-  #content .slider-awatch {
-    padding-top: 56.25%;
-    background: url("./assets/img/slider/slider-awatch/slider-awatch.jpg") top
-      center/cover no-repeat;
-    margin-bottom: 180px;
-  }
-  
-  #content .awatch-advertisement .wrapper-logo-awatch {
-    text-align: center;
-  }
-  
-  #content .awatch-advertisement .brief-info-advertisement {
-    text-align: center;
-    margin-top: 84px;
-    width: 40%;
-    font-family: "Lato", sans-serif;
-  }
-  
-  #content .awatch-advertisement h1 {
-    font-size: 48px;
-    margin-top: 32px;
-    font-weight: 600;
-    color: #1d1d1f;
-  }
-  
-  #content .awatch-advertisement p {
-    font-size: 21px;
-    font-weight: 600;
-    margin: 30px 0;
-    color: #1d1d1f;
-  }
-  
-  #content .awatch-advertisement .learn-more {
-    font-size: 17px;
-    color: #0066cc;
-    margin-left: 16px;
-    cursor: pointer;
-  }
-  
-  #content .awatch-advertisement .learn-more:hover {
-    text-decoration: underline;
-  }
-  
-  #content .awatch-advertisement .wrapper-banner-advertisement {
-    padding-top: 53.6%;
-    width: 60%;
-    background: url("../../assets/img/awatch-advertisement/awatch-advertisement.png")
-      top center/cover no-repeat;
-  }
-  
-  #content .awatch-product {
-    margin-top: 64px;
-  }
-  
-  #content .awatch-product .initial-product {
-    text-align: center;
-  }
-  
-  #content .awatch-product .sell-product {
-    text-align: center;
-  }
-  
-  #content .awatch-product .device-content {
-    margin-left: auto;
-    margin-right: auto;
-    width: 207px;
-    text-align: left;
-  }
-  
-  #content .awatch-product .name-awatch {
-    font-size: 21px;
-    color: #111111;
-    margin-bottom: 8.4px;
-    margin-top: 24px;
-  }
-  
-  #content .awatch-product .price-awatch {
-    font-size: 14px;
-    color: #1d1d1f;
-    margin-bottom: 17px;
-  }
-  
-  #feature-product li {
-    list-style-type: none;
-    font-size: 14px;
-    margin: 16px 0;
-    color: #6e6e73;
-  }
-  
-  #content .end-text-awatch {
-    text-align: center;
-    font-family: "Lato", sans-serif;
-  }
-  
-  #content .end-text-awatch h2 {
-    color: #111111;
-    margin-top: 84px;
-    margin-bottom: 26px;
-  }
-  
-  #content .end-text-awatch h1 {
-    color: #111111;
-    font-size: 48px;
-  }
-  
-  #content .end-text-awatch .wrapper-rainbow {
-    padding: 2px;
-    margin-top: 32px;
-    margin-bottom: 64px;
-    display: inline-block;
-    border-radius: 980px;
-    background: linear-gradient(
-      to right,
-      yellow,
-      orange,
-      red,
-      purple,
-      blue,
-      green
-    );
-    cursor: pointer;
-  }
-  
-  #content .wrapper-rainbow:hover a {
-    color: #0066cc;
-  }
-  
-  #content .end-text-awatch .rainbow-box {
-    font-size: 17px;
-    font-weight: bold;
-    border-radius: 980px;
-    background: #fff;
-    padding: 8px 16px;
-  }
-  #content .end-banner-awatch .wrapper-banner-awatch {
-    padding-top: 38.57%;
-    background: url("../../assets/img/banner_background/end-banner-awatch.png")
-      top center/cover no-repeat;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Common */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.col {
+  float: left;
+}
+
+.col-five {
+  width: 20%;
+}
+
+.col-half {
+  width: 50%;
+}
+
+.col-third {
+  width: 33.3333%;
+}
+
+.col-fourth {
+  width: 25%;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Main */
+#header {
+  max-width: 100%;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  /* position: fixed; */
+  z-index: 1;
+}
+
+#header .banner {
+  height: 84px;
+  position: relative;
+  background-color: #000;
+}
+
+#header .banner .logo {
+  padding: 8px 24px;
+  box-sizing: border-box;
+  width: 10%;
+}
+
+#header .banner .brand-text {
+  color: #ccc;
+  top: 0px;
+  left: 10%;
+  line-height: 84px;
+  font-family: "Lato", sans-serif;
+  background-size: cover;
+}
+
+#header .banner .slogan {
+  width: 50%;
+  line-height: 1.6;
+  height: 84px;
+  color: #ccc;
+  font-family: "Lato", sans-serif;
+  line-height: 84px;
+  background-size: cover;
+}
+
+#header .banner .banner-advertisement {
+  height: 84px;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 48px;
+  background-color: #333;
+}
+
+#nav li {
+  display: inline-block;
+  line-height: 48px;
+  padding: 0 8px;
+  text-align: center;
+  position: relative;
+}
+
+#nav li:first-child {
+  margin-left: 96px;
+}
+
+#nav li a {
+  text-decoration: none;
+  color: #ccc;
+  display: block;
+  box-sizing: border-box;
+}
+
+#nav li:hover {
+  cursor: pointer;
+}
+
+#nav li:hover a {
+  color: #fff;
+}
+
+#nav .search-btn {
+  float: right;
+  margin-left: 180px;
+  padding: 0 20px;
+  font-size: 24px;
+  color: #ccc;
+}
+
+#nav .search-btn:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.detail {
+  /* margin-top: 132px; */
+  height: 48px;
+  background-color: #fbfbfded;
+  line-height: 48px;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(110, 110, 110);
+}
+
+.detail a {
+  color: rgb(96, 135, 243);
+  text-decoration: none;
+}
+.detail a:hover {
+  text-decoration: underline;
+}
+
+#slider {
+  padding-top: 50%;
+  background: url("../../assets/img/slider/slider-advertisement.jpg") top center / contain
+    no-repeat;
+  background-color: #000;
+}
+
+.back-btn {
+  background-color: rgba(200, 200, 200, 0.7);
+  display: block;
+  width: 76px;
+  height: 76px;
+  position: fixed;
+  bottom: 32px;
+  right: 0;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  line-height: 96px;
+  z-index: 2;
+  border-radius: 100%;
+}
+
+#content .content-section {
+  width: 1240px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+#content .iMac-section {
+}
+
+#content .iMac-advertisement {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  line-height: 1.6;
+  margin-bottom: 64px;
+}
+
+#content .order-btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(123, 123, 236);
+  display: inline-block;
+  padding: 12px 18px;
+  margin: 8px 0;
+  border-radius: 980px;
+  cursor: pointer;
+}
+
+#content .iMac-advertisement .learn-more {
+  color: rgb(96, 135, 243);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#content .iMac-advertisement .learn-more:hover {
+  text-decoration: underline;
+}
+
+#content .iMac-section .img-advertisement {
+  margin-top: 36px;
+  padding-top: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 128px;
+  width: 80%;
+  background: url("../../assets/img/iMac-PC/iMac-PC.png") top center/cover
+    no-repeat;
+}
+
+#content .iMac-product {
+  text-align: center;
+  line-height: 1.6;
+  font-family: "Lato", sans-serif;
+}
+
+#content .i-question {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+#content .i-compare {
+  color: #0066cc;
+  font-size: 24px;
+  text-decoration: none;
+  margin-bottom: 51px;
+  margin-top: 30px;
+  display: block;
+}
+
+#content .i-compare:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#content .i-rcm {
+  font-size: 36px;
+  color: rgb(100, 100, 100);
+  font-weight: 600;
+  padding-bottom: 64px;
+}
+
+#content .sell-product {
+  font-family: "Lato", sans-serif;
+  line-height: 1.6;
+}
+
+#content .sell-product .i-device {
+  text-align: center;
+  height: 240px;
+  margin-bottom: 40px;
+}
+
+#content .sell-product .name-device {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 21px;
+}
+
+#content .sell-product .dynamicprice-i {
+  margin-top: 8px;
+  font-size: 14px;
+  color: rgb(100, 100, 100);
+}
+
+#content .sell-product .wrapper-color {
+  margin: 12px 0 10px;
+}
+
+#content .sell-product .wrapper-orderdevice {
+  margin-bottom: 12px;
+}
+
+#content .sell-product .orderdevice-btn {
+  color: #fff;
+  background-color: #0071e3;
+  padding: 4px 11px;
+  border-radius: 980px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+#content .end-banner-iMac {
+  margin: 64px 0 48px;
+}
+
+#content .end-banner-iMac h1 {
+  text-align: center;
+  font-size: 64px;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  margin-bottom: 84px;
+}
+
+#content .end-banner-iMac .wrapper-iMac-banner {
+  padding-top: 50%;
+  position: relative;
+  background: url("../../assets/img/banner_background/banner-iMacBRG.jpg") top
+    center/cover no-repeat;
+}
+
+#content .end-banner-iMac .iMac-banner-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+#content .iMac-banner-content h2 {
+  font-weight: 400;
+}
+
+#content .iMac-banner-content p {
+  font-size: 48px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+#content .iMac-banner-content a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  margin: 0 16px;
+}
+
+#content .iMac-banner-content a:hover {
+  text-decoration: underline;
+}
+
+#content .iPad-section {
+  font-family: "Lato", sans-serif;
+}
+
+#content .iPad-sample .brief-information {
+  flex-basis: 33.3333%;
+  max-width: 33.3333%;
+  margin-top: 64px;
+}
+
+#content .iPad-section .iPad-sample {
+  line-height: 1.2;
+}
+
+#content .iPad-sample h2 {
+  font-size: 24px;
+  color: #1d1d1f;
+}
+
+#content .iPad-sample p {
+  font-size: 18px;
+  color: rgb(85, 85, 85);
+  padding: 24px 0 4px;
+}
+
+#content .iPad-sample .learn-more {
+  color: rgb(96, 135, 243);
+  text-decoration: none;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#content .iPad-sample .learn-more:hover {
+  text-decoration: underline;
+}
+
+#content .iPad-sample .img-sample {
+  width: 66.6666%;
+}
+
+#content .iPad-sample .wrapper-sample-iPadPro {
+  padding-top: 50%;
+  background: url("../../assets/img/iPad-sample/iPadPro-sample.png") top
+    center/cover no-repeat;
+  margin-bottom: 128px;
+}
+
+#content .iPad-sample .wrapper-sample-iPadAir {
+  padding-top: 73%;
+  background: url("../../assets/img/iPad-sample/iPadAir-sample.png") top
+    center/cover no-repeat;
+  margin-bottom: 64px;
+}
+
+#content .iPad-sample .brief-information-iPadAir {
+  margin-top: 280px;
+}
+
+#content .iPad-sample .wrapper-sample-iPad {
+  padding-top: 44%;
+  background: url("../../assets/img/iPad-sample/iPad-sample.png") top
+    center/cover no-repeat;
+  margin-bottom: 64px;
+}
+
+#content .iPad-sample .brief-information-iPad {
+  margin-top: 164px;
+}
+
+#content .iPad-sample .wrapper-sample-iPadmini {
+  padding-top: 47%;
+  background: url("../../assets/img/iPad-sample/iPadmini-sample.png") top
+    center/cover no-repeat;
+  margin-bottom: 64px;
+}
+
+#content .iPad-sample .brief-information-iPadmini {
+  margin-top: 128px;
+}
+
+#content .iPad-product {
+  text-align: center;
+  line-height: 1.6;
+  font-family: "Lato", sans-serif;
+}
+
+#content .end-banner-iMac {
+}
+
+#content .end-banner-iPad .slogan-end-iPad {
+  text-align: center;
+  font-size: 56px;
+  margin: 84px 0 64px;
+}
+
+#content .slider-banner-iPad .img-slider-iPad {
+  width: 66.6666%;
+  padding-top: 49%;
+  background: url("../../assets/img/slider/slider-bannerbgr-iPad/slider-banner\ iPad.png")
+    top center/cover no-repeat;
+  margin-bottom: 128px;
+}
+
+#content .slider-banner-iPad h2 {
+  font-size: 48px;
+}
+
+#content .slider-banner-iPad .brief-information-iPad {
+  margin-top: 186px;
+}
+
+#content .slider-banner-iPad p {
+  font-size: 21px;
+  margin: 16.8px 0;
+  color: #1d1d1f;
+}
+
+#content .slider-banner-iPad .learn-more {
+  color: rgb(96, 135, 243);
+  text-decoration: none;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+#content .slider-banner-iPad .learn-more:hover {
+  text-decoration: underline;
+}
+
+#content .end-banner-iPad .wrapper-iPad-banner {
+  padding-top: 50%;
+  margin-bottom: 128px;
+  position: relative;
+  background: url("../../assets/img/banner_background/banner-iMacBRG.jpg") top
+    center/cover no-repeat;
+}
+
+#content .end-banner-iPad .iPad-banner-content {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+#content .iPad-banner-content h1 {
+  font-size: 48px;
+  margin-bottom: 16.8px;
+}
+
+#content .iPad-banner-content p {
+  font-size: 21px;
+  display: block;
+  margin-bottom: 16.8px;
+}
+
+#content .iPad-banner-content a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+#content .iPad-banner-content span {
+  display: inline;
+}
+
+#content .iPad-banner-content a:hover {
+  text-decoration: underline;
+}
+
+#content .slider-iPhone {
+  padding-top: 59%;
+  padding-left: 100%;
+  background: url("../../assets/img/slider/slider-iPhone/slider-iphone.jpg") top
+    center/cover no-repeat;
+}
+
+#content .background-color-iPhone {
+  background-color: #000;
+}
+
+#content .iPhone-advertisement {
+  text-align: center;
+}
+
+#content .text-iPhone-advertisement {
+  margin-bottom: 36px;
+}
+
+#content .text-iPhone-advertisement h2 {
+  font-size: 24px;
+  color: #1d1d1f;
+  font-weight: 600;
+}
+
+#content .text-iPhone-advertisement h1 {
+  font-size: 48px;
+  margin-top: 9px;
+  margin-bottom: 25px;
+}
+
+#content .text-iPhone-advertisement p {
+  font-size: 21px;
+  color: #1d1d1f;
+  margin-bottom: 21px;
+}
+
+#content .text-iPhone-advertisement .learn-more {
+  color: rgb(96, 135, 243);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 21px;
+  cursor: pointer;
+}
+
+#content .text-iPhone-advertisement .learn-more:hover {
+  text-decoration: underline;
+}
+
+#content .iPhone-advertisement .img-iPhone-advertisement {
+  padding-top: 38.35%;
+  background: url("../../assets/img/iPhone-advertisement/iPhone-advertisement.png") top
+    center/cover no-repeat;
+  margin-bottom: 32px;
+}
+
+#content .iPhone-product .wrapper-img-iphone {
+  margin-bottom: 42px;
+}
+
+#content .iPhone-product .initial-product {
+  text-align: center;
+  margin-top: 140px;
+}
+
+#content .iPhone-product .sell-product {
+  text-align: center;
+}
+
+#content .iPhone-product .rate-iPhone-product {
+  font-size: 19px;
+  color: #1d1d1f;
+  font-weight: 600;
+  margin-bottom: 9.6px;
+}
+
+#content .end-banner-iPhone {
+  margin-top: 64px;
+  padding-top: 44.8%;
+  position: relative;
+  background: url("../../assets/img/banner_background/banner-iPhoneBGR.png") top
+    center/cover no-repeat;
+}
+
+#content .end-banner-iPhone .wrapper-banner-iPhone {
+  position: absolute;
+  text-align: center;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#content .end-banner-iPhone h1 {
+  font-size: 48px;
+  margin-bottom: 25px;
+}
+
+#content .end-banner-iPhone p {
+  font-size: 21px;
+  margin-bottom: 16px;
+  color: #1d1d1f;
+}
+
+#content .end-banner-iPhone .learn-more {
+  text-decoration: none;
+  color: #0066cc;
+  font-size: 21px;
+}
+
+#content .end-banner-iPhone .learn-more:hover {
+  text-decoration: underline;
+}
+
+#content .app-advertisement {
+  margin-top: 64px;
+  margin-bottom: 128px;
+}
+
+#content .app-advertisement .wrapper-left-img {
+  padding-top: 48.39%;
+  background: url("../../assets/img/app-advertisement/img-left.png") top
+    center/cover no-repeat;
+}
+#content .app-advertisement .wrapper-right-img {
+  padding-top: 48.39%;
+  background: url("../../assets/img/app-advertisement/img-right.png") top
+    center/cover no-repeat;
+}
+
+#content .client-care {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  line-height: 1.6;
+}
+
+#content .client-care {
+  margin-bottom: 128px;
+}
+
+#content .client-care .wrapper-box-img {
+  margin-bottom: 24px;
+}
+
+#content .client-care .wrapper-price-img {
+  margin-bottom: 24px;
+}
+
+#content .client-care .wrapper-person-img {
+  margin-bottom: 24px;
+}
+
+#content .client-care h2 {
+  color: #1d1d1f;
+  font-size: 21px;
+}
+
+#content .client-care p {
+  margin: 8.4px 0;
+  font-size: 21px;
+  color: #1d1d1f;
+}
+
+#content .client-care a {
+  text-decoration: none;
+  font-size: 21px;
+  color: #0066cc;
+}
+
+#content .client-care a:hover {
+  text-decoration: underline;
+}
+
+#content .slider-awatch {
+  padding-top: 56.25%;
+  background: url("../../assets/img/slider/slider-awatch/slider-awatch.jpg") top
+    center/cover no-repeat;
+  margin-bottom: 180px;
+}
+
+#content .awatch-advertisement .wrapper-logo-awatch {
+  text-align: center;
+}
+
+#content .awatch-advertisement .brief-info-advertisement {
+  text-align: center;
+  margin-top: 84px;
+  width: 40%;
+  font-family: "Lato", sans-serif;
+}
+
+#content .awatch-advertisement h1 {
+  font-size: 48px;
+  margin-top: 32px;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+
+#content .awatch-advertisement p {
+  font-size: 21px;
+  font-weight: 600;
+  margin: 30px 0;
+  color: #1d1d1f;
+}
+
+#content .awatch-advertisement .learn-more {
+  font-size: 17px;
+  color: #0066cc;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+#content .awatch-advertisement .learn-more:hover {
+  text-decoration: underline;
+}
+
+#content .awatch-advertisement .wrapper-banner-advertisement {
+  padding-top: 53.6%;
+  width: 60%;
+  background: url("../../assets/img/awatch-advertisement/awatch-advertisement.png")
+    top center/cover no-repeat;
+}
+
+#content .awatch-product {
+  margin-top: 64px;
+}
+
+#content .awatch-product .initial-product {
+  text-align: center;
+}
+
+#content .awatch-product .sell-product {
+  text-align: center;
+}
+
+#content .awatch-product .device-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 207px;
+  text-align: left;
+}
+
+#content .awatch-product .name-awatch {
+  font-size: 21px;
+  color: #111111;
+  margin-bottom: 8.4px;
+  margin-top: 24px;
+}
+
+#content .awatch-product .price-awatch {
+  font-size: 14px;
+  color: #1d1d1f;
+  margin-bottom: 17px;
+}
+
+#feature-product li {
+  list-style-type: none;
+  font-size: 14px;
+  margin: 16px 0;
+  color: #6e6e73;
+}
+
+#content .end-text-awatch {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+#content .end-text-awatch h2 {
+  color: #111111;
+  margin-top: 84px;
+  margin-bottom: 26px;
+}
+
+#content .end-text-awatch h1 {
+  color: #111111;
+  font-size: 48px;
+}
+
+#content .end-text-awatch .wrapper-rainbow {
+  padding: 2px;
+  margin-top: 32px;
+  margin-bottom: 64px;
+  display: inline-block;
+  border-radius: 980px;
+  background: linear-gradient(
+    to right,
+    yellow,
+    orange,
+    red,
+    purple,
+    blue,
+    green
+  );
+  cursor: pointer;
+}
+
+#content .wrapper-rainbow:hover a {
+  color: #0066cc;
+}
+
+#content .end-text-awatch .rainbow-box {
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 980px;
+  background: #fff;
+  padding: 8px 16px;
+}
+#content .end-banner-awatch .wrapper-banner-awatch {
+  padding-top: 38.57%;
+  background: url("../../assets/img/banner_background/end-banner-awatch.png")
+    top center/cover no-repeat;
+}
