@@ -155,7 +155,7 @@
   
   #slider {
     padding-top: 50%;
-    background: url("../../assets/img/slider/slider_top.jpg") top center / contain
+    background: url("./assets/img/slider/slider_top.jpg") top center / contain
       no-repeat;
     background-color: #000;
   }
@@ -447,7 +447,7 @@
   #content .slider-banner-iPad .img-slider-iPad {
     width: 66.6666%;
     padding-top: 49%;
-    background: url("../../assets/img/slider/slider-bannerbgr-iPad/slider-banner-iPad.png")
+    background: url("./assets/img/slider/slider-bannerbgr-iPad/slider-banner-iPad.png")
       top center/cover no-repeat;
     margin-bottom: 128px;
   }
@@ -574,7 +574,7 @@
   
   #content .iPhone-advertisement .img-iPhone-advertisement {
     padding-top: 38.35%;
-    background: url("../../assets/img/iPhone-advertisement/iPhone.png") top
+    background: url("./assets/img/iPhone-advertisement/iPhone.png") top
       center/cover no-repeat;
     margin-bottom: 32px;
   }
@@ -697,7 +697,7 @@
   
   #content .slider-awatch {
     padding-top: 56.25%;
-    background: url("../../assets/img/slider/slider-awatch/slider-awatch.jpg") top
+    background: url("./assets/img/slider/slider-awatch/slider-awatch.jpg") top
       center/cover no-repeat;
     margin-bottom: 180px;
   }
