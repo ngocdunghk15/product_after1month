@@ -161,6 +161,23 @@ width:10%;
     background-color: #000;
 }
 
+.back-btn{
+    
+    background-color: rgba(200, 200, 200, 0.7);
+    display:block;
+    width: 76px; 
+    height: 76px;
+    position: fixed;
+    bottom: 32px;
+    right: 0;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    line-height: 96px;
+    z-index:2;
+    border-radius: 100%;
+}
+
 #content .content-section{
     width:1240px;
     max-width: 100%;
