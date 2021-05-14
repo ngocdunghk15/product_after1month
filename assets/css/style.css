@@ -834,3 +834,9 @@ body {
   background: url("../../assets/img/banner_background/end-banner-awatch.png")
     top center/cover no-repeat;
 }
+
+#footer .banner-footer{
+  width: 100%;
+  padding-top: 43.75%;
+  background: url(../../assets/img/footer/footer-img.png) top center/cover no-repeat; 
+}
