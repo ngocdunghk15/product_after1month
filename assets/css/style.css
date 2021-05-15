@@ -7,6 +7,7 @@
 
 /* Common */
 html {
+  display:grid;
   scroll-behavior: smooth;
 }
 
@@ -123,7 +124,6 @@ body {
 
 #nav .search-btn {
   float: right;
-  margin-left: 180px;
   padding: 0 20px;
   font-size: 24px;
   color: #ccc;
@@ -163,8 +163,8 @@ body {
 .back-btn {
   background-color: rgba(200, 200, 200, 0.7);
   display: block;
-  width: 76px;
-  height: 76px;
+  width: 70px;
+  height: 70px;
   position: fixed;
   bottom: 32px;
   right: 0;
@@ -267,6 +267,7 @@ body {
   text-align: center;
   height: 240px;
   margin-bottom: 40px;
+  overflow: hidden;
 }
 
 #content .sell-product .name-device {
