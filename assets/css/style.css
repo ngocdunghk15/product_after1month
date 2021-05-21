@@ -80,7 +80,14 @@ body {
   font-family: "Lato", sans-serif;
   line-height: 84px;
   background-size: cover;
+  font-size:24px;
+  font-weight: 600;
 }
+
+#header .banner .slogan p{
+  margin-left:80px;
+}
+
 
 #header .banner .banner-advertisement {
   height: 84px;
@@ -268,7 +275,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   display:grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto ;
   grid-column-gap:8px;
 }
 
