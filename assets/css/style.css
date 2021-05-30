@@ -269,6 +269,8 @@ body {
   line-height: 1.6;
 }
 
+
+
 #content .sell-product-iMac{
   max-width: 850px;
   text-align: center;
@@ -284,6 +286,7 @@ body {
   height: 240px;
   margin-bottom: 40px;
   overflow: hidden;
+  width:275px;
 }
 
 #content .sell-product .name-device {
@@ -445,6 +448,19 @@ body {
 #content .iPad-sample .brief-information-iPadmini {
   margin-top: 128px;
 }
+
+#content .iPad-product .sell-product{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+} 
+#content .iPad-product .sell-product>div{
+  width: 25%;
+}
+
+
+
+
 
 #content .iPad-product {
   text-align: center;
