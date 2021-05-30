@@ -4,6 +4,7 @@
     #header .brand-text{
         margin-left:36px;
     }
+
     
     #header .banner .slogan p {
         font-size:22px;
@@ -18,9 +19,8 @@
     }
 
     #content .iPhone-product .col-fourth{
-        width: 250px;
         text-align: center;
-
+        width: 334px;
     }
 
     #content .end-banner-iPhone .wrapper-banner-iPhone h1{
@@ -33,7 +33,7 @@
 
     #content .iPhone-product .wrapper-sell-product{
         display:grid;
-        width: 500px;
+        width: 700px;
         text-align: center;
         grid-column-gap:32px;
         grid-template-columns:auto auto ;
@@ -44,4 +44,36 @@
     #content .content-section{
         max-width: 90%;
     }
+    #content .iPad-product .sell-product{
+        display:flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      } 
+      #content .iPad-product .sell-product>div{
+          width: 50%;
+    }
+
+}
+
+/* Smart Phone on mode  */
+@media (max-width:739px){
+    #content .iPad-product .sell-product>div{
+        width: 100%;
+  }
+  #content .iPhone-product .sell-product>div{
+      width: 100%;
+  }
+  #content .end-banner-iPhone p{
+      display: none;
+  }
+  #content .sell-product-iMac{
+      display: flex;
+      flex-direction: column;
+  }
+  #content .sell-product-iMac div{
+      width: 100%;
+      align-items: center;
+      margin:auto;
+
+  }
 }
