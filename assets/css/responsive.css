@@ -52,6 +52,9 @@
       #content .iPad-product .sell-product>div{
           width: 50%;
     }
+    #content .iPad-product .sell-product .i-device{
+        margin:auto;
+    }
 
 }
 
@@ -76,4 +79,7 @@
       margin:auto;
 
   }
+  #content .iPad-product .sell-product .i-device{
+    margin:auto;
+}
 }
